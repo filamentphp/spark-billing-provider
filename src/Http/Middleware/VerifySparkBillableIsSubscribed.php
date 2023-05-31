@@ -17,6 +17,6 @@ class VerifySparkBillableIsSubscribed extends VerifyBillableIsSubscribed
 {
     protected function redirect(string $billableType): string
     {
-        return Filament::getTenantBillingUrl();
+        return Filament::getTenantBillingUrl(Filament::getTenant());
     }
 }
