@@ -9,7 +9,7 @@ use Filament\Facades\Filament;
 use Illuminate\Http\RedirectResponse;
 use Spark\Spark;
 
-class SparkBillingProvider implements Contracts\BillingProvider
+class SparkBillingProvider implements Contracts\Provider
 {
     /**
      * @return string | Closure | array<class-string, string>
